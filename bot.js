@@ -26,4 +26,4 @@ client.on('message', msg => {
     }
 })
 
-client.login("NzIwMjQ1MzU1NjUxNzkyODk4.XuDK1A.P-s_Ja32wvGwsbCJPN9sQBZlYVk")
+client.login(process.env.discord_token)
